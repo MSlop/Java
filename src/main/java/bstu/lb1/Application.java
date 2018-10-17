@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Application{
     public  static void main(String[] args) {
         Product product = null;
+        System.out.print("Введите кол-во проектов");
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
         Product[] arr_prod = new Product[num];
