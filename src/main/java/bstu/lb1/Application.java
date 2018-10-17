@@ -10,7 +10,9 @@ public class Application{
         int num = in.nextInt();
         Product[] arr_prod = new Product[num];
         for (int i=0; i<num; i++){
-            product = FactoryMethod.InitType();
+            while (product == null) {
+                product = FactoryMethod.InitType();
+            }
             product.init(in);
             arr_prod[i] = product;
         }
