@@ -27,6 +27,7 @@ class FactoryMethod {
             case MILK:
                 prod = new Milk();
                 break;
+            //todo: ты ни когда не провалишься в default, т.к. верхний do-while тебя не выпустит до тех пор, пока ты не введешь корректное число, default можно убрать
             default:
                 System.out.print("Введено не верное число");
                 prod = null;
