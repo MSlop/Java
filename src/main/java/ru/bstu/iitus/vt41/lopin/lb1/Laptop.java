@@ -14,6 +14,7 @@ public class Laptop extends Technique {
     public void init(Scanner scanner) {
         super.init(scanner);
         System.out.print("Введите размер экрана ");
+        //todo[mslop]: внутри класса использование сеттера оправдано только в том случае, если там есть логика, в данном случае обратиться к полю через this как в классе Product
         setScreenSize(scanner.nextFloat());
     }
 

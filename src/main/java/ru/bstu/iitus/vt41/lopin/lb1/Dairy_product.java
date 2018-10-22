@@ -11,6 +11,7 @@ import java.util.Scanner;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
+//todo[mslop]: не по конвенции. надо DairyProduct
 class Dairy_product extends Product{
     private Date shelfLife;
     @Override

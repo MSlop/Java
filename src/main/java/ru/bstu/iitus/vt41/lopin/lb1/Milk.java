@@ -14,6 +14,7 @@ public class Milk extends Dairy_product {
     public void init(Scanner scanner) {
         super.init(scanner);
         System.out.print("Введите тип молока(натуральное, восстановленное, овечье, козье и т.д) ");
+        //todo[mslop]: внутри класса использование сеттера оправдано только в том случае, если там есть логика, в данном случае обратиться к полю через this как в классе Product
         setTypeMilk(scanner.next());
     }
 
