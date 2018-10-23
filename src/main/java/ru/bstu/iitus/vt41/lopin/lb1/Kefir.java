@@ -13,7 +13,7 @@ public class Kefir extends DairyProduct {
     public void init(Scanner scanner) {
         super.init(scanner);
         System.out.print("Ввелите тип кефира(слабый, кислый и т.д.) ");
-        setTypeKefir(scanner.next());
+        this.typeKefir = scanner.next();
     }
 
     @Override

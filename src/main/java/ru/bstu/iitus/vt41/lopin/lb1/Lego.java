@@ -13,7 +13,7 @@ public class Lego extends Toy {
     public void init(Scanner scanner) {
         super.init(scanner);
         System.out.print("Ввидите тип Лего(STAR WARS, FRIENDS, LEGO DUPLO и т.д) ");
-        setTypeLego(scanner.next());
+        this.typeLego = scanner.next();
     }
 
     @Override

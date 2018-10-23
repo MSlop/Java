@@ -14,7 +14,7 @@ public class Milk extends DairyProduct {
     public void init(Scanner scanner) {
         super.init(scanner);
         System.out.print("Введите тип молока(натуральное, восстановленное, овечье, козье и т.д) ");
-        setTypeMilk(scanner.next());
+        this.typeMilk = scanner.next();
     }
 
     @Override

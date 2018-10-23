@@ -13,7 +13,7 @@ public class Toy extends Product {
     @Override
     public void init(Scanner scanner) {
         super.init(scanner);
-        setMinAge(Check.checkAge(scanner,"Введите минимальный возраст, при котором можно использовать эту игрушку"));
+        this.minAge =  Check.checkAge(scanner,"Введите минимальный возраст, при котором можно использовать эту игрушку");
     }
 
 

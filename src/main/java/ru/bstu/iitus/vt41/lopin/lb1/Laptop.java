@@ -14,7 +14,7 @@ public class Laptop extends Technique {
     public void init(Scanner scanner) {
         super.init(scanner);
         System.out.print("Введите размер экрана ");
-        setScreenSize(scanner.nextFloat());
+        this.screenSize = scanner.nextFloat();
     }
 
     @Override

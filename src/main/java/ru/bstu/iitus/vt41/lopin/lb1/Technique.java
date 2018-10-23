@@ -8,11 +8,11 @@ import java.util.Scanner;
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class Technique extends Product {
-    private boolean Autonomy;
+    private boolean autonomy;
     @Override
     public void init(Scanner scanner) {
         super.init(scanner);
-        setAutonomy(Check.checkBoolean(scanner,"Введите может ли эта техника работать автономно(true/false) "));
+        this.autonomy =  Check.checkBoolean(scanner,"Введите может ли эта техника работать автономно(true/false) ");
     }
 
 }

@@ -14,7 +14,7 @@ public class Camera extends Technique {
     public void init(Scanner scanner) {
         super.init(scanner);
         System.out.print("Введите разрешение снимков камеры(Мп) ");
-        setCameraResolution(scanner.nextFloat());
+        this.cameraResolution = scanner.nextFloat();
     }
 
     @Override
