@@ -8,12 +8,16 @@
     <artifactId>lb1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
     <dependencies>
-    <dependency>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
-        <version>1.18.2</version>
-        <scope>provided</scope>
-    </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.2</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 </project>

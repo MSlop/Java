@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Application {
     public static void main(String[] args) {
-        List<Product> products = new ArrayList<Product>();
+        List<Product> products = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         int num = Check.checkPositiveInteger(scanner,"Введите положительное число продуктов ");
         for (int i = 0; i < num; i++) {
