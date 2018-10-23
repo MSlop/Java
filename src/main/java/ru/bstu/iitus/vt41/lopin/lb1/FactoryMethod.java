@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 class FactoryMethod {
     static Product InitType(Scanner scanner) {
-        Product prod;
+        Product prod = null;
         int number;
         do {
             System.out.println("1 - Камера , 2-Кефир, 3-Ноутбук, 4-Лего, 5-Молоко ");
@@ -27,9 +27,6 @@ class FactoryMethod {
             case MILK:
                 prod = new Milk();
                 break;
-            default:
-                System.out.print("Введено не верное число");
-                prod = null;
         }
         return prod;
     }
