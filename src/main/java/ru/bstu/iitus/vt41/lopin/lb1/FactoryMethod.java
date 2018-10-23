@@ -8,7 +8,7 @@ class FactoryMethod {
         Product prod = null;
         int number;
         do {
-            System.out.println("1 - Камера , 2-Кефир, 3-Ноутбук, 4-Лего, 5-Молоко ");
+            System.out.println(TypeProductEnum.showAllTypeProduct());
             number = scanner.nextInt();
         } while (number < 1 || number > TypeProductEnum.values().length);
         switch (TypeProductEnum.from(number)) {
