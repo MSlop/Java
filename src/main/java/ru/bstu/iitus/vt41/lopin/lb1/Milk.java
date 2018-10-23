@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class Milk extends Dairy_product {
+public class Milk extends DairyProduct {
 
     private String typeMilk;
 

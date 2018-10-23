@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-class Dairy_product extends Product{
+class DairyProduct extends Product{
     private Date shelfLife;
     @Override
     public void init(Scanner scanner){

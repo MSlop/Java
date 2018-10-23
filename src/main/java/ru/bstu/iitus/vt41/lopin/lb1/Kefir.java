@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class Kefir extends Dairy_product {
+public class Kefir extends DairyProduct {
     private String typeKefir;
     @Override
     public void init(Scanner scanner) {
